@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: floppy_web_1
+      APP_HOST: den-floppy_web_1
       APP_PORT: 8000
 
   web:
@@ -15,4 +15,13 @@ services:
     environment:
       SECRET: "floppy_umbrel_secret_key_change_me"
       REGISTRATION: "true"
+      REDIS_URL: "redis://redis:6379"
       TZ: "UTC"
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:8-alpine
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/redis:/data
