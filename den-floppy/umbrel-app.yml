@@ -1,20 +1,15 @@
-manifestVersion: 1.1
+manifestVersion: 1
 id: floppy
 name: Floppy
-tagline: Self-hosted all-in-one media tracker & diary
-version: "26.8.20"
-port: 8090
-torOnly: false
-description: >-
-  Floppy is a self-hosted personal media tracker and Trakt/Letterboxd alternative 
-  for movies, TV shows, anime, manga, books, games, music, and podcasts. 
-  Features unified history, scrobbling, recap stats, and sync integrations (Plex, Jellyfin).
+version: 1.0.0
+tagline: Personal media tracker and diary.
+description: A self-hosted personal media tracker and Trakt/Letterboxd alternative.
 developer: Dannyvfilms
-website: https://github.com/dannyvfilms/Floppy
-repo: https://github.com/dannyvfilms/Floppy
-support: https://github.com
-gallery: []
+website: https://github.com
 dependencies: []
-path: ""
-defaultUsername: ""
-defaultPassword: ""
+repo: https://github.com
+support: https://github.com/issues
+port: 8090
+gallery: []
+submitter: User
+submissionDate: 2026-10-19
