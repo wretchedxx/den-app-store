@@ -2,14 +2,16 @@ manifestVersion: 1
 id: floppy
 name: Floppy
 version: 1.0.0
-tagline: Personal media tracker and diary.
-description: A self-hosted personal media tracker and Trakt/Letterboxd alternative.
+tagline: Self-hosted personal media tracker & diary
+description: A self-hosted personal media tracker and Trakt/Letterboxd alternative for movies, TV shows, anime, manga, books, games, music, and podcasts.
 developer: Dannyvfilms
 website: https://github.com
-dependencies: []
 repo: https://github.com
 support: https://github.com/issues
 port: 8090
-gallery: []
 submitter: User
 submissionDate: 2026-10-19
+dependencies:
+  - app
+gallery:
+  - https://githubusercontent.com
