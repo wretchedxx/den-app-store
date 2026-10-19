@@ -2,7 +2,7 @@ manifestVersion: 1
 id: floppy
 name: Floppy
 tagline: Self-hosted all-in-one media tracker & diary
-icon: https://githubusercontent.com
+icon: https://github.com/wretchedxx/den-app-store/blob/master/den-floppy/ui/app.png?raw=true
 category: entertainment
 version: "26.8.20"
 port: 8090
