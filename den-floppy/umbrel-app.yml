@@ -16,7 +16,7 @@ description: >-
   Floppy emphasizes simplicity and clarity in its design, delivering an intuitive retro-inspired user interface that focuses entirely on privacy and data ownership. With zero trackers or external telemetry, all your personal data, reviews, and logs stay safely on your Umbrel server. Floppy helps you take full control of your entertainment history and archive your life's media journey securely.
 developer: Dannyvfilms
 website: https://github.com
-submitter: User
+submitter: den
 submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/dannyvfilms/Floppy
 support: https://github.com/dannyvfilms/Floppy/issues
