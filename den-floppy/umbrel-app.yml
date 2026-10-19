@@ -21,7 +21,7 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/dannyvfilms/Floppy
 support: https://github.com/dannyvfilms/Floppy/issues
 gallery:
-  - https://githubusercontent.com/dannyvfilms/Floppy/11c7ac2c07d40707c2bef5ab2fe2e36ef2ac75dc/docs/brand/floppy-wallpaper.png
+  - https://raw.githubusercontent.com/dannyvfilms/Floppy/refs/heads/latest/docs/brand/floppy-wallpaper.png
 releaseNotes: >-
   This release includes:
 
