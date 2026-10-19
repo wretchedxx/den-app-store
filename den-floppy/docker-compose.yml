@@ -1,0 +1,30 @@
+version: "3.7"
+
+services:
+  app:
+    image: ghcr.io/dannyvfilms/floppy:v26.8.20
+    restart: on-failure
+    environment:
+      - SECRET=floppy_umbrel_secret_key_change_me_to_random_string
+      - REGISTRATION=True
+      - REDIS_URL=redis://floppy-redis:6379
+      - TZ=UTC
+    ports:
+      - "${APP_PORT}:8000"
+    volumes:
+      - "${APP_DATA_DIR}/data/db:/floppy/db"
+      - "${APP_DATA_DIR}/data/backups:/floppy/backups"
+    depends_on:
+      redis:
+        condition: service_healthy
+
+  redis:
+    image: redis:8-alpine
+    restart: on-failure
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    volumes:
+      - "${APP_DATA_DIR}/data/redis:/data"
