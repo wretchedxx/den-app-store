@@ -2,7 +2,7 @@ manifestVersion: 1
 id: floppy
 name: Floppy
 tagline: Self-hosted all-in-one media tracker & diary
-icon: https://github.com/dannyvfilms/Floppy/blob/11c7ac2c07d40707c2bef5ab2fe2e36ef2ac75dc/src/static/favicon/android-chrome-512x512.png
+icon: https://githubusercontent.com/dannyvfilms/Floppy/11c7ac2c07d40707c2bef5ab2fe2e36ef2ac75dc/src/static/favicon/android-chrome-512x512.png
 category: entertainment
 version: "26.8.20"
 port: 8090
@@ -21,7 +21,7 @@ submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/dannyvfilms/Floppy
 support: https://github.com/dannyvfilms/Floppy/issues
 gallery:
-  - https://github.com/dannyvfilms/Floppy/blob/11c7ac2c07d40707c2bef5ab2fe2e36ef2ac75dc/docs/brand/floppy-wallpaper.png
+  - https://githubusercontent.com/dannyvfilms/Floppy/11c7ac2c07d40707c2bef5ab2fe2e36ef2ac75dc/docs/brand/floppy-wallpaper.png
 releaseNotes: >-
   This release includes:
 
